@@ -1,0 +1,22 @@
+@media (min-width:992px) {
+  .container{
+    width: 970px;
+  }
+}
+@media (min-width:768px) {
+  .container{
+    width: 750px;
+  }
+}
+@media (max-width: 650px) {
+  .hero__content {flex-wrap: wrap}
+  .header img{
+    width: 90px;
+  }
+  .buttonWrapper__right {display: none}
+  .buttonWrapper__left {display: none}
+  .wrapper__inputs{
+    width: 100px;
+    margin-right: 10px;
+  }
+}
